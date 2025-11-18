@@ -1,0 +1,183 @@
+.terms-wrapper {
+    background-color: #f9f9f9;
+    padding: 60px 0;
+  }
+  
+  .terms-wrapper h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .terms-wrapper p {
+    font-size: 1.1rem;
+    line-height: 1.8rem;
+    color: #555;
+  }
+  
+  .terms-wrapper h3 {
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: #222;
+    margin-bottom: 15px;
+  }
+  
+  .terms-wrapper ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .terms-wrapper ul li {
+    margin-bottom: 10px;
+    padding-left: 25px;
+    position: relative;
+    font-size: 1.1rem;
+    color: #444;
+  }
+  
+  .terms-wrapper ul li::before {
+    content: "\f00c";  /* FontAwesome check icon */
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: #28a745;
+    position: absolute;
+    left: 0;
+    top: 3px;
+    font-size: 1rem;
+  }
+  
+  .terms-wrapper a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .terms-wrapper a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+  }
+  
+  .terms-wrapper section {
+    padding: 30px;
+    margin-bottom: 40px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  }
+  
+  .terms-wrapper .contact-info ul {
+    margin-top: 20px;
+  }
+  
+  .terms-wrapper .contact-info ul li {
+    font-size: 1.1rem;
+    color: #333;
+  }
+  
+  .terms-wrapper .contact-info ul li a {
+    font-weight: 500;
+  }
+
+
+
+  .terms-wrapper {
+    background-color: #f9f9f9;
+    padding: 60px 0;
+  }
+  
+  .terms-wrapper h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .terms-wrapper p {
+    font-size: 1.1rem;
+    line-height: 1.8rem;
+    color: #555;
+  }
+  
+  .terms-wrapper h3 {
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: #222;
+    margin-bottom: 15px;
+  }
+  
+  .terms-wrapper ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .terms-wrapper ul li {
+    margin-bottom: 10px;
+    padding-left: 25px;
+    position: relative;
+    font-size: 1.1rem;
+    color: #444;
+  }
+  
+  .terms-wrapper ul li::before {
+    content: "\f00c";  /* FontAwesome check icon */
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: #28a745;
+    position: absolute;
+    left: 0;
+    top: 3px;
+    font-size: 1rem;
+  }
+  
+  .terms-wrapper a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .terms-wrapper a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+  }
+  
+  .terms-wrapper section {
+    padding: 30px;
+    margin-bottom: 40px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  }
+  
+  .contact-info ul {
+    margin-top: 20px;
+  }
+  
+  .contact-info ul li {
+    font-size: 1.1rem;
+    color: #333;
+  }
+  
+  .contact-info ul li a {
+    font-weight: 500;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .terms-wrapper h1 {
+      font-size: 2.5rem;
+    }
+  
+    .terms-wrapper h3 {
+      font-size: 1.5rem;
+    }
+  
+    .terms-wrapper p {
+      font-size: 1rem;
+    }
+  
+    .terms-wrapper section {
+      padding: 20px;
+    }
+  }
+  
