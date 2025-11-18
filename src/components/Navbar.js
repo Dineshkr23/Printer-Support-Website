@@ -12,7 +12,7 @@ export const Navbar = () => {
               src="/images/logo.png"
               alt="Printzaa Logo"
               className="img-fluid"
-              style={{ height: '45px', objectFit: 'contain' }}
+              style={{ height: "45px", objectFit: "contain" }}
             />
           </Link>
           <button
@@ -51,7 +51,9 @@ export const Navbar = () => {
             </ul>
           </div>
           <div className="help">
-            <a className="blue">Need Help?</a>
+            <a href="#contact" className="blue">
+              Need Help?
+            </a>
             <a href="tel:(888) 366-2141" className="contact">
               (888) 366-2141
             </a>

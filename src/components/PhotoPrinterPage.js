@@ -67,7 +67,7 @@ const PhotoPrinterPage = () => {
             <div className="product-gallery">
               <img
                 src={selectedImage}
-                alt="Portable Photo Printer"
+                alt="Portable printer for high-quality prints"
                 className="product-main-image img-fluid rounded"
               />
               <div className="product-thumbnails d-flex mt-3">
